@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Common {
     public HashMap<Character, Integer> toCountMap(String a){
         HashMap<Character, Integer> countsA = new HashMap<Character, Integer>();
-        char[] aChars = a.toLowerCase().toCharArray();
+        char[] aChars = a.trim().toLowerCase().toCharArray();
         for(char c : aChars){
             if(countsA.containsKey(c)){countsA.replace(c, countsA.get(c).intValue()+1);}
             else{countsA.put(c, 1);}
