@@ -2,7 +2,6 @@ import java.util.HashSet;
 
 public class TxMsg {
     public String getMessage(String original) {
-        char[] vowels = {'a','e','i','o','u'};
         char[] constants = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'};
         HashSet<Character> constantsSet = new HashSet<Character>();
         for(char c : constants){constantsSet.add(c);}
