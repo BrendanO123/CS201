@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 public class SortedFreqs {
     public int[] freqs(String[] data) {
         HashMap<String, Integer> OccurrenceCounts = new HashMap<>();
